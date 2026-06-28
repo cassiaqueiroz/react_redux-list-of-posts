@@ -20,5 +20,4 @@ export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;
 
 // eslint-disable-next-line @typescript-eslint/indent, max-len, prettier/prettier
-export type AppThunk<ReturnType = void> = ThunkAction< ReturnType, RootState, unknown,Action<string>
->;
+export type AppThunk<ReturnType = void> = ThunkAction< ReturnType, RootState, unknown,Action<string>>;
